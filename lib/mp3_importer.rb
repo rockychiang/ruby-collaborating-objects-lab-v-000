@@ -4,7 +4,7 @@ class MP3Importer
     
   end
   
-  def importer
+  def import
     
   end
   
