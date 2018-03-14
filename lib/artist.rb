@@ -21,7 +21,7 @@ class Artist
   end
   
   def self.find_or_create_by_name(name)
-    @@all.include?(name) ? @@all.find{|artist| artist.name = name }
+    @@all.name.include?(name) ? @@all.find{|artist| artist.name = name }
   end
   
 end
